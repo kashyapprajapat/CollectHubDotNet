@@ -1,0 +1,41 @@
+## Ignore build results
+bin/
+obj/
+
+# Add this to your .gitignore
+.vs/
+*.vsidx
+*.suo
+*.user
+bin/
+obj/
+
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## VS Code files
+.vscode/
+
+## Logs
+*.log
+
+## ASP.NET Core secrets
+secrets.json
+
+## Publish directory
+publish/
+out/
+
+## Rider settings
+.idea/
+
+## Environment-specific files
+.env
