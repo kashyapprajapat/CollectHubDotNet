@@ -11,4 +11,4 @@
 
 | User 👥 | SampleResponse 🅰️ |
 |----------|--------|
-| ![user](./Demoimages/User1.png) | ![userapiresponse](./Demoimages/user2.png) |
+| ![user](./DemoImages/User1.png) | ![userapiresponse](./DemoImages/user2.png) |
