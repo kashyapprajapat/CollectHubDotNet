@@ -12,3 +12,15 @@
 | User 👥 | SampleResponse 🅰️ |
 |----------|--------|
 | ![user](./DemoImages/User1.png) | ![userapiresponse](./DemoImages/user2.png) |
+
+
+
+| Games 🏏🎮 | GameCollections 🛢️🗄️ |
+|----------|--------|
+| ![games](./DemoImages/GameAPiDocs.png) | ![userapiresponse](./DemoImages/GameCollection.png) |
+
+
+
+| Games API 🚴🏻‍♂️🏋🏻 | Game API 🏌🏻‍♂️⛹🏻‍♂️ |
+|----------|--------|
+| ![games](./DemoImages/GamesApiDocs1.png) | ![userapiresponse](./DemoImages/GamesApiDocs2.png) |
