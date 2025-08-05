@@ -21,7 +21,8 @@ builder.Services.Configure<MongoDbSettings>(options =>
 // Register services
 builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddScoped<UserService>();
-builder.Services.AddScoped<GameService>(); // Add this line
+builder.Services.AddScoped<GameService>(); 
+builder.Services.AddScoped<YouTubeChannelService>();
 
 // Add services to the container
 builder.Services.AddControllers();
