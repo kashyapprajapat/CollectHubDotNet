@@ -13,7 +13,7 @@
 |----------|--------|
 | ![user](./DemoImages/User1.png) | ![userapiresponse](./DemoImages/user2.png) |
 
-
+---
 
 | Games 🏏🎮 | GameCollections 🛢️🗄️ |
 |----------|--------|
@@ -24,3 +24,19 @@
 | Games API 🚴🏻‍♂️🏋🏻 | Game API 🏌🏻‍♂️⛹🏻‍♂️ |
 |----------|--------|
 | ![games](./DemoImages/GamesApiDocs1.png) | ![userapiresponse](./DemoImages/GamesApiDocs2.png) |
+
+
+---
+
+| YoutubeChannels 📲🎯 | YtChannelsCollections 🛢️🗄️ |
+|----------|--------|
+| ![games](./DemoImages/YtChannelsApiDocs.png) | ![userapiresponse](./DemoImages/YtChannelsCollection.png) |
+
+
+
+| YtChannelsAPI 🚴🏻‍♂️🏋🏻 | YtChannelsAPI 🏌🏻‍♂️⛹🏻‍♂️ |
+|----------|--------|
+| ![games](./DemoImages/YtChannelsApiDocs1.png) | ![userapiresponse](./DemoImages/YtChannelsApiDocs2.png) |
+
+
+---
