@@ -24,6 +24,7 @@ builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<GameService>();
 builder.Services.AddScoped<YouTubeChannelService>();
 builder.Services.AddScoped<FavProgrammingLanguageService>(); 
+builder.Services.AddScoped<FavVehicleService>();
 
 // Add services to the container
 builder.Services.AddControllers();
