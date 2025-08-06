@@ -23,8 +23,9 @@ builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<GameService>();
 builder.Services.AddScoped<YouTubeChannelService>();
-builder.Services.AddScoped<FavProgrammingLanguageService>(); 
+builder.Services.AddScoped<FavProgrammingLanguageService>();
 builder.Services.AddScoped<FavVehicleService>();
+builder.Services.AddScoped<FavMusicService>();
 
 // Add services to the container
 builder.Services.AddControllers();
