@@ -123,7 +123,7 @@ CollectHub is a comprehensive platform designed to help you organize, manage, an
 </td>
 <td width="50%">
 <h4>Favourite Vehicles Collection</h4>
-<img src="./DemoImages/FavProggramingLangCollection.png" alt="Programming Languages Collection" width="100%"/>
+<img src="./DemoImages/FavVehicleCollection.png" alt="Programming Languages Collection" width="100%"/>
 </td>
 </tr>
 </table>
@@ -132,11 +132,11 @@ CollectHub is a comprehensive platform designed to help you organize, manage, an
 <tr>
 <td width="50%">
 <h4>Favourite Vehicles API - Part 1</h4>
-<img src="./DemoImages/FavProggrammingLang1.png" alt="Programming Languages API 1" width="100%"/>
+<img src="./DemoImages/FavVehicleApiDocs1.png" alt="Programming Languages API 1" width="100%"/>
 </td>
 <td width="50%">
 <h4>Favourite Vehicles API - Part 2</h4>
-<img src="./DemoImages/FavProggrammingLang2.png" alt="Programming Languages API 2" width="100%"/>
+<img src="./DemoImages/FavVehicleApiDocs2.png" alt="Programming Languages API 2" width="100%"/>
 </td>
 </tr>
 </table>
