@@ -173,10 +173,44 @@ CollectHub is a comprehensive platform designed to help you organize, manage, an
 </table>
 
 
+---
+
+
+### Mobile Apps 📱📲
+<table>
+<tr>
+<td width="50%">
+<h4> Mobile Apps 📳📴 API</h4>
+<img src="./DemoImages/MobileAppsApiDocs.png" alt="Mobile Apps API" width="100%"/>
+</td>
+<td width="50%">
+<h4>Mobile Apps Collection</h4>
+<img src="./DemoImages/MobileAppCollections.png" alt="Mobile Apps Collection" width="100%"/>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%">
+<h4>Mobile Apps 📶 API - Part 1</h4>
+<img src="./DemoImages/MobileAppsApiDocs1.png" alt="Mobile Apps API 1" width="100%"/>
+</td>
+<td width="50%">
+<h4>Mobile Apps 📶 API - Part 2</h4>
+<img src="./DemoImages/MobileAppsApiDocs2.png" alt="Mobile Apps API 2" width="100%"/>
+</td>
+</tr>
+</table>
+
+
 
 
 
 ---
+
+
+
 
 ## 🛠️ Tech Stack
 
