@@ -5,7 +5,7 @@ namespace CollecthubDotNet.Models
         public bool Success { get; set; }
         public string Message { get; set; } = string.Empty;
         public T? Data { get; set; }
-        public List<string>? Errors { get; set; } // Add this property if missing
+        public List<string>? Errors { get; set; } 
     }
 
     // Alternative: Non-generic version if you need it

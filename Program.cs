@@ -26,6 +26,7 @@ builder.Services.AddScoped<YouTubeChannelService>();
 builder.Services.AddScoped<FavProgrammingLanguageService>();
 builder.Services.AddScoped<FavVehicleService>();
 builder.Services.AddScoped<FavMusicService>();
+builder.Services.AddScoped<MobileAppService>();
 
 // Add services to the container
 builder.Services.AddControllers();
