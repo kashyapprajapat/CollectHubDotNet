@@ -54,6 +54,10 @@ catch (Exception ex)
     app.UseSwaggerUI();
 //}
 
+app.UseDefaultFiles();  // Looks for index.html in wwwroot
+app.UseStaticFiles();
+
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
