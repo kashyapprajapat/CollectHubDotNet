@@ -28,6 +28,17 @@ builder.Services.AddScoped<FavVehicleService>();
 builder.Services.AddScoped<FavMusicService>();
 builder.Services.AddScoped<MobileAppService>();
 
+// Add CORS policy - THIS WAS MISSING!
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 // Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -57,9 +68,13 @@ catch (Exception ex)
 app.UseDefaultFiles();  // Looks for index.html in wwwroot
 app.UseStaticFiles();
 
+// Enable CORS - THIS WAS MISSING! Must be before UseRouting and UseAuthorization
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
+app.UseRouting();  // Add this for explicit routing
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();
