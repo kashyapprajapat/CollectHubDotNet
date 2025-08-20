@@ -28,7 +28,7 @@ builder.Services.AddScoped<FavVehicleService>();
 builder.Services.AddScoped<FavMusicService>();
 builder.Services.AddScoped<MobileAppService>();
 
-// Add CORS policy - THIS WAS MISSING!
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -38,6 +38,9 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader();
     });
 });
+
+// Add health checks
+builder.Services.AddHealthChecks();
 
 // Add services to the container
 builder.Services.AddControllers();
@@ -75,6 +78,16 @@ app.UseHttpsRedirection();
 app.UseRouting();  // Add this for explicit routing
 app.UseAuthorization();
 
+// Map health checks
+app.MapHealthChecks("/healthcheck");
+
 app.MapControllers();
+
+// Add custom route for health UI (redirect /health to /health/ui)
+app.MapGet("/health", async context =>
+{
+    context.Response.Redirect("/health/ui");
+});
+
 
 app.Run();
